@@ -20,10 +20,10 @@ const ThreeScene: React.FC = () => {
 
     // Create vertical gradient from light blue to white
     const gradient = context.createLinearGradient(0, 0, 0, canvas.height);
-    gradient.addColorStop(0, "#ffffff"); // White at top
-    gradient.addColorStop(0.3, "#e6f3ff"); // Very light blue
-    gradient.addColorStop(0.7, "#b3d9ff"); // Light blue
-    gradient.addColorStop(1, "#87ceeb"); // Sky blue at bottom
+    gradient.addColorStop(0, "#579ee6"); // Sky blue at top
+    gradient.addColorStop(0.3, "#93c5f7"); // Light blue
+    gradient.addColorStop(0.7, "#bdddfa"); // Very light blue
+    gradient.addColorStop(1, "#f0fdff"); // White at bottom
 
     context.fillStyle = gradient;
     context.fillRect(0, 0, canvas.width, canvas.height);
